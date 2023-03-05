@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1080 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;">
+    <g id="Hair-front">
+        <g>
+            <g>
+                <g>
+                    <path d="M402.339,283.716L615.253,285.982C615.253,285.982 500.663,68.793 402.339,283.716Z" style="fill:rgb(34,34,34);stroke:rgb(50,50,50);stroke-width:4px;"/>
+                    <path d="M582.524,283.716C582.524,283.716 505.523,167.807 441.23,283.716C441.23,283.716 441.017,493.43 274.556,483.184C274.556,483.184 132.267,495.725 242.307,322.016C242.307,322.016 460.026,-11.452 599.476,124.422C599.476,124.422 679.072,126.44 768.351,210.499C857.631,294.558 933.324,444.225 847.876,484.444C847.876,484.444 771.598,526.743 699.488,356.489C699.488,356.489 616.474,354.193 582.524,283.716Z" style="fill:rgb(50,50,50);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

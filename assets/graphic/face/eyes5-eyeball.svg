@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1080 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="eyes">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <path d="M455.897,520.719C468.042,520.719 477.902,527.734 477.902,536.376C477.902,545.017 468.042,552.032 455.897,552.032C443.752,552.032 433.892,545.017 433.892,536.376C433.892,527.734 443.752,520.719 455.897,520.719Z"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M624.103,520.719C636.248,520.719 646.108,527.734 646.108,536.376C646.108,545.017 636.248,552.032 624.103,552.032C611.958,552.032 602.098,545.017 602.098,536.376C602.098,527.734 611.958,520.719 624.103,520.719Z"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

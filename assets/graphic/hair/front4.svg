@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1080 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Hair-front">
+        <g>
+            <path d="M244.978,485.761C248.89,537.269 450.542,339.498 531.784,231.425C531.784,231.425 636.737,321.483 786.749,477.859C786.749,477.859 812.721,502.342 819.659,493.352C844.947,460.584 854.626,301.636 738.435,199.669C738.435,199.669 704.203,164.526 676.346,150.466C632.536,128.354 565.794,93.551 517.209,119.769C517.209,119.769 451.357,131.733 385.046,159.601C342.302,177.565 300.097,226.863 273.995,272.515C233.168,343.921 239.679,415.998 244.978,485.761Z" style="fill:rgb(50,50,50);"/>
+        </g>
+    </g>
+</svg>

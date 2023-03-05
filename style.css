@@ -1,0 +1,266 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+img{
+    pointer-events: none;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.skin1-bright{
+    filter: brightness(0) saturate(100%) invert(98%) sepia(27%) saturate(840%) hue-rotate(299deg) brightness(101%) contrast(101%);
+}
+
+.skin1-dark{
+    filter: brightness(0) saturate(100%) invert(80%) sepia(3%) saturate(4411%) hue-rotate(321deg) brightness(117%) contrast(101%);
+}
+
+.skin2-bright{
+    filter: brightness(0) saturate(100%) invert(82%) sepia(9%) saturate(1303%) hue-rotate(337deg) brightness(107%) contrast(101%);
+}
+
+.skin2-dark{
+    filter: brightness(0) saturate(100%) invert(71%) sepia(60%) saturate(411%) hue-rotate(322deg) brightness(102%) contrast(101%);
+}
+
+.skin3-bright{
+    filter: brightness(0) saturate(100%) invert(59%) sepia(54%) saturate(290%) hue-rotate(349deg) brightness(95%) contrast(96%);
+}
+
+.skin3-dark{
+    filter: brightness(0) saturate(100%) invert(58%) sepia(7%) saturate(3115%) hue-rotate(349deg) brightness(88%) contrast(83%);
+}
+
+.haircolor1{
+    filter: brightness(0) saturate(100%) invert(13%) sepia(4%) saturate(0%) hue-rotate(283deg) brightness(96%) contrast(82%);
+}
+
+.haircolor2{
+    filter: brightness(0) saturate(100%) invert(41%) sepia(21%) saturate(1512%) hue-rotate(349deg) brightness(90%) contrast(86%);
+}
+
+.haircolor3{
+    filter: brightness(0) saturate(100%) invert(61%) sepia(29%) saturate(5619%) hue-rotate(342deg) brightness(91%) contrast(82%);
+}
+
+.haircolor4{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(24%) saturate(543%) hue-rotate(350deg) brightness(105%) contrast(105%);}
+
+.elevation1{
+    background: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.elevation2{
+    background: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+}
+
+.elevation3{
+    background: #fff;
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.elevation4{
+    background: #fff;
+    box-shadow: 0px 6px 10px 4px rgba(0, 0, 0, 0.15), 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.tab-label-selected {
+    width: 20%;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size:18px;
+    border-radius: 10px 10px 0 0;
+    color: #fff; 
+    background: linear-gradient(180deg, #EA7272 10%, rgba(234, 114, 114, 0) 100%), #AD1457;
+}
+
+.item-selected{
+    box-sizing: border-box;
+    border: 3px solid #AD1457;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8FD1ED;
+    font-family:"Roboto", sans-serif;
+}
+
+.header{
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #AD1457;
+    display: fixed;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.option-select{
+    width: 468px;
+    height: 100%;
+    padding: 16px;
+    z-index: 1;
+}
+
+#tab-label-container{
+    display: flex;
+}
+
+.tab-label{
+    width: 20%;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size:18px;
+    color: #963E5D;
+    border-radius: 10px 10px 0 0;
+    background-color: #F2F2F2;
+}
+
+.tab-label:hover{
+    cursor: pointer;
+    transition: 200ms;
+    color: #fff; 
+    background: linear-gradient(180deg, #EA7272 10%, rgba(234, 114, 114, 0) 100%), #AD1457;
+}
+
+.tab-item{
+    width: 436px;
+    height: 670px;
+    overflow: scroll;
+    margin: 0px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.dropdown, .color{
+    padding: 24px;
+}
+
+.face-selector, .hair-selector{
+    display: flex;
+    text-align: center;
+}
+
+.face-selector p:hover, .hair-selector p:hover, .item-card-square:hover, .item-card-circle:hover{
+    cursor: pointer;
+}
+
+.face-selector p, .hair-selector p{
+    width: 20%;
+    height: 32px;
+    line-height: 32px;
+}
+
+.shape{
+    background-color: #F2F2F2;
+    padding: 24px;
+}
+
+.tab-item-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.item-card-square{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    display: flex;
+    margin: 24px 24px 0 0;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.avatar-list-item{
+    width: 170px;
+}
+
+.avatar-item{
+    width: 57%;
+    position: absolute;
+    bottom: -50px;
+}
+
+.item-card-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 1000px;
+    margin: 24px 24px 24px 0;
+}
+
+.avatar{
+    width: 100%;
+}
+
+.avatar-notselected{
+    display: none;
+}
+
+.avatar-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        display: contents;
+    }
+
+    .avatar{
+        position: relative;
+        height: 40%;
+        z-index: -1;
+    }
+
+    .avatar-item{
+        width: 70%;
+    }
+
+    .container{
+        display: block;
+        width: 100%;
+    }
+
+    .option-select{
+        width: 100%;
+        bottom: 24px;
+    }
+
+    #tab-label-containe{
+        position: relative;
+    }
+
+    .tab-item{
+        position: relative;
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        
+    }
+
+    .item-card-square{
+        width: 28%;
+    }
+
+    .avatar-list-item{
+        width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1080 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="eyebrows">
+        <g>
+            <g>
+                <g>
+                    <path d="M486.427,464.16C486.427,457.743 481.217,452.533 474.8,452.533L437.955,452.533C431.538,452.533 426.328,457.743 426.328,464.16C426.328,470.577 431.538,475.787 437.955,475.787L474.8,475.787C481.217,475.787 486.427,470.577 486.427,464.16Z"/>
+                    <path d="M651.977,464.368C651.977,457.951 646.767,452.741 640.349,452.741L603.505,452.741C597.087,452.741 591.877,457.951 591.877,464.368C591.877,470.785 597.087,475.996 603.505,475.996L640.349,475.996C646.767,475.996 651.977,470.785 651.977,464.368Z"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
