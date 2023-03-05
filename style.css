@@ -225,7 +225,8 @@ body{
     }
 
     .avatar{
-        position: relative;
+        position: fixed;
+        margin-top: 18%;
         height: 40%;
         z-index: -1;
     }
@@ -234,30 +235,26 @@ body{
         width: 70%;
     }
 
-    .container{
-        display: block;
-        width: 100%;
-    }
-
     .option-select{
         width: 100%;
-        bottom: 24px;
+        top: 40%;
     }
 
-    #tab-label-containe{
-        position: relative;
+    #tab-label-container{
+        margin-top: 50%;
     }
 
     .tab-item{
-        position: relative;
+        position: fixed;
         width: 100%;
-        height: 100%;
+        height: 50%;
         margin: 0;
-        
+        overflow: scroll;
     }
 
     .item-card-square{
-        width: 28%;
+        width: 200px;
+        height: 200px;
     }
 
     .avatar-list-item{
