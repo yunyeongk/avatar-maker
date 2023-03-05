@@ -178,7 +178,7 @@ body{
 }
 
 .item-card-square{
-    width: 170px;
+    width: 40%;
     height: 170px;
     border-radius: 10px;
     display: flex;
@@ -188,7 +188,7 @@ body{
 }
 
 .avatar-list-item{
-    width: 170px;
+    width: 100%;
 }
 
 .avatar-item{
