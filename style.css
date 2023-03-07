@@ -4,6 +4,12 @@ img{
     pointer-events: none;
 }
 
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
 h3{
     font-size: 24px;
     font-weight: 400;
@@ -74,7 +80,7 @@ h3{
     height: 48px;
     line-height: 48px;
     text-align: center;
-    font-size:18px;
+    font-size:20px;
     border-radius: 10px 10px 0 0;
     color: #fff; 
     background: linear-gradient(180deg, #EA7272 10%, rgba(234, 114, 114, 0) 100%), #AD1457;
@@ -91,6 +97,75 @@ body{
     overflow: hidden;
     background-color: #8FD1ED;
     font-family:"Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+#contact-container{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    position: fixed;
+    padding-top: 116px;
+}
+
+#contact{
+    width: 600px;
+    height: 533px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popup-header{
+    height: 70px;
+    padding-left: 24px;
+    color: #fff;
+    background-color: #AD1457;
+    border-radius: 10px 10px 0 0;
+}
+
+.popup-header h2{
+    line-height: 70px;
+    text-align: left;
+    width: 220px;
+    float: left;
+}
+
+#ic-close{
+    float: right;
+}
+
+.avatar-profile{
+    margin-top: 40px;
+}
+
+#email{
+    height: 40px;
+    line-height: 40px;
+    width: 244px;
+    margin: auto;
+}
+
+#email img{
+    float: left;
+}
+
+#contact-ic{
+    width: 96px;
+    height: 40px;
+    margin: 32px auto;
+    padding: auto;
+}
+
+.ic{
+    width: 40px;
+    float: left;
+}
+
+#ic-linkedIn{
+    margin-right: 16px;
 }
 
 .header{
@@ -100,6 +175,15 @@ body{
     height: 70px;
     background-color: #AD1457;
     display: fixed;
+    color: #fff;
+}
+
+#navi-contact{
+    width: 100px;
+    margin: 0 0 0 24px;
+    line-height: 70px;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .container{
@@ -124,7 +208,7 @@ body{
     height: 48px;
     line-height: 48px;
     text-align: center;
-    font-size:18px;
+    font-size:20px;
     color: #963E5D;
     border-radius: 10px 10px 0 0;
     background-color: #F2F2F2;
@@ -155,7 +239,7 @@ body{
     text-align: center;
 }
 
-.face-selector p:hover, .hair-selector p:hover, .item-card-square:hover, .item-card-circle:hover{
+.face-selector p:hover, .hair-selector p:hover, .item-card-square:hover, .item-card-circle:hover, .ic-download:hover, #ic-close:hover, #navi-contact:hover{
     cursor: pointer;
 }
 
@@ -191,6 +275,14 @@ body{
     width: 100%;
 }
 
+.ic-download{
+    display: none;
+    position: fixed;
+    bottom: 24px;
+    right: 492px;
+    z-index: 2;
+}
+
 .avatar-item{
     width: 57%;
     position: absolute;
@@ -212,7 +304,7 @@ body{
     display: none;
 }
 
-.avatar-container{
+#avatar-container{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -220,10 +312,20 @@ body{
 }
 
 @media only screen and (max-width: 1100px){
-    .container{
-        display: contents;
+    .header{
+        height: 110px;
     }
 
+    #navi-contact{
+        margin: 0 0 0 24px;
+        line-height: 110px;
+    }
+
+    .tab-label, .tab-label-selected{
+        height: 56px;
+        line-height: 56px;
+    }
+    
     .avatar{
         bottom: 52%;
         position: fixed;
@@ -269,15 +371,9 @@ body{
     .avatar-list-item{
         width: 100%;
     }
-}
 
-@media only screen and (max-width: 1100px){
-    .header{
-        height: 110px;
-    }
-
-    .tab-label, .tab-label-selected{
-        height: 56px;
-        line-height: 56px;
-    }
+    .ic-download{
+        right: 24px;
+        bottom: 50%;
+    }   
 }

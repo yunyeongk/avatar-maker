@@ -140,6 +140,18 @@ var avatarClothing1 = document.getElementById("avatar-clothing1");
 var avatarClothing2 = document.getElementById("avatar-clothing2");
 var avatarClothing3 = document.getElementById("avatar-clothing3");
 
+var icClose = document.getElementById("ic-close");
+var contact = document.getElementById("contact-container");
+var naviContact = document.getElementById("navi-contact");
+
+naviContact.onclick = function(){
+    contact.style.display="block"
+}
+
+icClose.onclick = function(){
+    contact.style.display="none"
+}
+
 
 itemFace1.onclick = function() {
     avatarFace1.style.display="block"
