@@ -85,6 +85,11 @@ var HairbackColor1 = document.getElementById("item-hairbackcolor1");
 var HairbackColor2 = document.getElementById("item-hairbackcolor2");
 var HairbackColor3 = document.getElementById("item-hairbackcolor3");
 var HairbackColor4 = document.getElementById("item-hairbackcolor4");
+var itemAcc0 = document.getElementById("item-acc0");
+var itemAcc1 = document.getElementById("item-acc1");
+var itemAcc2 = document.getElementById("item-acc2");
+var itemAcc3 = document.getElementById("item-acc3");
+var itemAcc4 = document.getElementById("item-acc4");
 
 var avatarFace1 = document.getElementById("avatar-face1");
 var avatarFace2 = document.getElementById("avatar-face2");
@@ -139,6 +144,10 @@ var avatarHairback7 = document.getElementById("avatar-hairback7");
 var avatarClothing1 = document.getElementById("avatar-clothing1");
 var avatarClothing2 = document.getElementById("avatar-clothing2");
 var avatarClothing3 = document.getElementById("avatar-clothing3");
+var avatarAcc1 = document.getElementById("avatar-acc1");
+var avatarAcc2 = document.getElementById("avatar-acc2");
+var avatarAcc3 = document.getElementById("avatar-acc3");
+var avatarAcc4 = document.getElementById("avatar-acc4");
 
 var icClose = document.getElementById("ic-close");
 var contact = document.getElementById("contact-container");
@@ -1442,6 +1451,62 @@ itemClothing3.onclick = function() {
     itemClothing1.className = "item-card-square elevation3"
     itemClothing2.className = "item-card-square elevation3"
     itemClothing3.className = "item-selected item-card-square elevation2"
+};
+
+itemAcc0.onclick = function() {
+    avatarAcc1.style.display="none"
+    avatarAcc2.style.display="none"
+    avatarAcc3.style.display="none"
+    avatarAcc4.style.display="none"
+    itemAcc0.className = "item-selected item-card-square elevation2"
+    itemAcc1.className = "item-card-square elevation3"
+    itemAcc2.className = "item-card-square elevation3"
+    itemAcc3.className = "item-card-square elevation3"
+    itemAcc4.className = "item-card-square elevation3"
+};
+itemAcc1.onclick = function() {
+    avatarAcc1.style.display="block"
+    avatarAcc2.style.display="none"
+    avatarAcc3.style.display="none"
+    avatarAcc4.style.display="none"
+    itemAcc0.className = "item-card-square elevation3"
+    itemAcc1.className = "item-selected item-card-square elevation2"
+    itemAcc2.className = "item-card-square elevation3"
+    itemAcc3.className = "item-card-square elevation3"
+    itemAcc4.className = "item-card-square elevation3"
+};
+itemAcc2.onclick = function() {
+    avatarAcc1.style.display="none"
+    avatarAcc2.style.display="block"
+    avatarAcc3.style.display="none"
+    avatarAcc4.style.display="none"
+    itemAcc0.className = "item-card-square elevation3"
+    itemAcc1.className = "item-card-square elevation3"
+    itemAcc2.className = "item-selected item-card-square elevation2"
+    itemAcc3.className = "item-card-square elevation3"
+    itemAcc4.className = "item-card-square elevation3"
+};
+itemAcc3.onclick = function() {
+    avatarAcc1.style.display="none"
+    avatarAcc2.style.display="none"
+    avatarAcc3.style.display="block"
+    avatarAcc4.style.display="none"
+    itemAcc0.className = "item-card-square elevation3"
+    itemAcc1.className = "item-card-square elevation3"
+    itemAcc2.className = "item-card-square elevation3"
+    itemAcc3.className = "item-selected item-card-square elevation2"
+    itemAcc4.className = "item-card-square elevation3"
+};
+itemAcc4.onclick = function() {
+    avatarAcc1.style.display="none"
+    avatarAcc2.style.display="none"
+    avatarAcc3.style.display="none"
+    avatarAcc4.style.display="block"
+    itemAcc0.className = "item-card-square elevation3"
+    itemAcc1.className = "item-card-square elevation3"
+    itemAcc2.className = "item-card-square elevation3"
+    itemAcc3.className = "item-card-square elevation3"
+    itemAcc4.className = "item-selected item-card-square elevation2"
 };
 
 face.onclick = function() {
